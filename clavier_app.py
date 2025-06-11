@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.set_page_config(initial_sidebar_state="expanded")
 def calculate_rt(cec, m, m_star, rw, rho_clay):
     BQv = cec * rho_clay
     F = BQv / (1 + BQv)
